@@ -5,3 +5,5 @@ One time:   powershell -ExecutionPolicy Bypass -File setup.ps1     (admin termin
 Install:    npm install
 Run:        npm run dev        (first run compiles Rust, takes several minutes)
 Build exe:  npm run build      (installer ends up in src-tauri\target\release\bundle\nsis)
+
+Made Fully by Claude Sonnet 5.5
