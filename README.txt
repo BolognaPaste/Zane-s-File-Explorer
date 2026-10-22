@@ -1,4 +1,4 @@
-Vault Opus (Tauri + Rust)
+(Tauri + Rust)
 
 One time:   powershell -ExecutionPolicy Bypass -File setup.ps1     (admin terminal)
             then open a NEW terminal in this folder:  rustup default stable-msvc
