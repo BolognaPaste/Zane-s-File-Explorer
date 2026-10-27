@@ -1,6 +1,6 @@
 [package]
-name = "vault-opus"
-version = "0.1.0"
+name = "zanes-file-explorer"
+version = "0.3.0"
 edition = "2021"
 
 [build-dependencies]
@@ -15,6 +15,8 @@ open = "5"
 arboard = "3"
 dirs = "5"
 sysinfo = "0.30"
+notify = { version = "8", default-features = false }
+tauri-plugin-drag = "2"
 
 [target.'cfg(windows)'.dependencies]
 winreg = "0.52"
